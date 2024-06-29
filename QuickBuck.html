@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBuck</title>
+    <link rel="icon" href="assets/img/MyPortImg.jpeg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="assets/img/MyPortImg.jpeg" alt="Front-Web-Developer" class="myPort"> Beshoy Edwar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold source-sans">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header class="position-relative d-flex flex-column justify-content-center align-items-center source-sans min-vh-100 hero-bg">
+        <div data-aos="zoom-in" class="w-50 text-center" data-depth="0.8">
+            <p class="fs-22">Job Posting Web Application</p>
+        </div>
+        <h1 data-aos="zoom-in" class="display-2 pb-4" data-depth="0.6">QuickBuck</h1>
+        <div class="position-absolute hero-contact shadow translate-middle-y">
+          <ul class="list-unstyled fs-1 d-flex align-items-center justify-content-center flex-column">
+            <li><i class="fab fa-linkedin linked"></i></li>
+            <li><i class="fab fa-github git"></i></li>
+          </ul>
+        </div>
+    </header>
+    <section>
+        <div class="container source-sans">
+            <img src="assets/img/Landing Page.png" data-aos="fade-up" data-aos-duration="1000" class="w-100" alt="web-developer">
+            <h2 class="fw-bold my-4" data-aos="fade-up" data-aos-duration="1000">Project Overview</h2>
+            <p class="fs-18" data-aos="fade-up" data-aos-duration="1000">
+                QuickBuck is a comprehensive web application designed to empower fresh graduates and undergraduates in the competitive job market. It provides a platform for them to showcase their skills and talents, connect with potential employers, and find freelance and entry-level job opportunities.            </p>
+            <p>
+                <h3 class="fw-bold" data-aos="fade-up" data-aos-duration="1000">Project Goal</h3>
+                <p>The goal of QuickBuck is to bridge the gap between recent graduates and employers by:</p>
+                <ul data-aos="fade-up" data-aos-duration="1000">
+                    <li>Offering a centralized platform for job seeking, talent discovery, and professional networking.</li>
+                    <li>Empowering graduates to build their portfolios and demonstrate their abilities.</li>
+                    <li>Enabling employers to discover promising new talent and streamline the recruitment process.</li>
+                </ul>
+             <ul data-aos="fade-up" data-aos-duration="1000">   
+                <span class="fw-bold" >Features:</span>
+                
+                <li><span class="fw-bold">User Registration and Login:</span>  Users can register and choose their role as either a job seeker or job provider.</li>
+                <li><span class="fw-bold">Role-Based Access Control (RBAC):</span> Users have access to specific functionalities based on their role (job seeker or job provider).</li>
+                <li><span class="fw-bold">Job Board:</span> Graduates can search for and apply to freelance and entry-level job opportunities. Employers can post job openings and manage applications.</li>
+                <li><span class="fw-bold">User Profiles:</span>  Graduates can create profiles to showcase their skills, experience, and educational background. Job providers can create company profiles to provide information about their organization and job opportunities.</li>
+                <li><span class="fw-bold">Portfolio Building: </span> Job seekers can add their skills and their education in order to showcase their background and knowledge.</li>
+                <li><span class="fw-bold">Virtual Wallet and Subscription Service: </span> A virtual wallet system with Stripe integration allows users to pay for a subscription service that provides additional benefits within the app</li>
+                <li><span class="fw-bold">Real-Time Chat: </span> A chat functionality enables job seekers and job providers to communicate directly, enhancing opportunities for both parties.</li>
+                <li><span class="fw-bold">Job Bookmarking: </span>Job seekers can save interesting job postings for later reference.</li>
+                <li><span class="fw-bold">Job Search and Filtering: </span>Job seekers can search and filter job postings based on various criteria, such as date (newest or oldest) and keywords.</li>
+                <li><span class="fw-bold">Job Applications: </span>Job seekers can easily apply for job openings.</li>
+                <li><span class="fw-bold">Applicant Tracking System (ATS) for Job Providers: </span>Job providers can view applications, access candidate CVs, and search for specific candidates based on usernames.</li>
+                <li><span class="fw-bold">Company Profiles:</span> Job seekers can view company profiles to learn more about potential employers, their work culture, and current job openings.</li>
+                <li><span class="fw-bold">Job Provider Dashboard:</span>  A dashboard allows job providers to manage their company profile, edit and delete job postings, and track applications.</li>
+            </ul>
+            </p>
+            <p>
+                <ul data-aos="fade-up" data-aos-duration="1000">
+                <span class="fw-bold">Technical Specifications:</span>
+                <li><span class="fw-bold">Front-End Development:</span>Angular 17</li>
+                <li><span class="fw-bold">Back-End Development: </span>ASP.NET Core 6</li>
+                <li><span class="fw-bold">Security:</span>User authentication with JWT (JSON Web Token) based authorization to restrict unauthorized access.</li>
+                <li><span class="fw-bold">Payment Gateway:</span>Stripe integration for secure online transactions.</li>
+                </ul>
+            </p>
+            <h3 class="fw-bold mt-4" >Tools Used</h3>
+            <ul data-aos="fade-up" data-aos-duration="1000" class="mt-3 list-unstyled d-flex gap-3 flex-wrap skillList source-sans text-secondary">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Angular 17</li>
+                <li>Bootstrap</li>
+                <li>ASP .Net Core 6</li>
+                <li>Entity Framework</li>
+                <li>SQL Server</li>
+                <li>Database Design</li>
+              </ul>
+              <h3 class="fw-bold mt-3">See Live</h3>
+              <div data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.linkedin.com/posts/beshoy-salama-ba734427b_angular-angular17-dotnet-activity-7212210057688588288-tzWr?utm_source=share&utm_medium=member_desktop" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn text-white">Project Link</button></a>
+               <a href="index.html" class="text-decoration-none"><button class="goBackBtn">Go Back</button></a>
+               <a href="https://github.com/Beshoy-Edwar-Aziz/QuickBuckFront"><button class="goBackBtn">Source Code(Front End)</button></a>
+               <a href="https://github.com/Beshoy-Edwar-Aziz/QuickBuckProject"><button class="goBackBtn">Source Code(Back End||API)</button></a> 
+              </div>
+        </div>
+    </section>
+    <footer class="source-sans text-center text-secondary">
+        <p>Copy Right 2024 © By Beshoy Edwar All Rights Reserved</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>AOS.init()</script>
+</body>
+</html>

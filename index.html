@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beshoy Edwar | Front-End Web Developer</title>
-    <link rel="icon" href="assets/img/MyPortImg.png">
+    <link rel="icon" href="assets/img/MyPortImg.jpeg">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body data-bs-spy="scroll">
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top " id="navbar">
             <div class="container">
-              <a class="navbar-brand" href="#"><img src="assets/img/MyPortImg.png" alt="Front-Web-Developer" class="rounded-circle myPort"> Beshoy Edwar</a>
+              <a class="navbar-brand" href="#"><img src="assets/img/MyPortImg.jpeg" alt="Front-Web-Developer" class="rounded-circle myPort"> Beshoy Edwar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -35,40 +36,49 @@
               </div>
             </div>
           </nav>
-          <header id="home" class="position-relative d-flex flex-column justify-content-center align-items-center source-sans min-vh-100 hero-bg">
-            <div class="w-50 text-center">
-                <p class="fs-22">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+          <header data-aos="zoom-in" data-aos-duration="1000" id="home" class="position-relative d-flex flex-column justify-content-center align-items-center source-sans min-vh-100 hero-bg">
+            <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center flex-column">
+              <div class=" text-center">
+                  <p class="fs-22">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+              </div>
+              <h1 class="display-2 pb-4" >I'm Beshoy Edwar</h1>
             </div>
-            <h1 class="display-2 pb-4">I'm Beshoy Edwar</h1>
+            <div class="col-12 col-lg-6">
+              <img src="./assets/img/MyPortImg.jpeg" class="w-100" alt="Beshoy Edwar">
+            </div>
+          </div>
+          </div>
             <div class="position-absolute hero-contact shadow translate-middle-y">
               <ul class="list-unstyled fs-1 d-flex align-items-center justify-content-center flex-column">
                 <li><i class="fab fa-linkedin linked"></i></li>
                 <li><i class="fab fa-github git"></i></li>
               </ul>
             </div>
-            <div class="position-absolute  shape">
+            <!-- <div class="position-absolute  shape">
                 <div class="dot position-absolute">
 
                 </div>
-            </div>
+            </div> -->
         </header>
         <section id="about">
           <div class="container">
             <div class="position-relative text-center mb-4">
-              <h2 class="aboutTitle source-sans fw-bold display-5">ABOUT ME</h2>
+              <h2 class="aboutTitle source-sans fw-bold display-5" data-aos="fade-up">ABOUT ME</h2>
             </div>
             <div class="px-5">
-               <p class="source-sans text-secondary text-center fs-20">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+               <p class="source-sans text-secondary text-center fs-20" data-aos="fade-out" data-aos-duration="1000">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
             </div>
             <div class="row mt-5">
-              <div class="col-md-6">
+              <div class="col-md-6" data-aos="zoom-out">
                 <h3 class="source-sans fw-bold mb-3">Get to know me!</h3>
                 <p class="source-sans fs-18 text-secondary">I'm a <strong>Frontend (Angular) Web Developer</strong> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <span class="fw-bold">Projects</span> section.</p>
                 <p class="source-sans fs-18 text-secondary">I also like sharing my work and what I've learned so it can help the other people of Dev community and to market myself obviously. Feel free to Connect or Follow me on my <a href="https://www.linkedin.com/in/beshoy-salama-ba734427b/" target="_blank" class="link fw-bold">Linkedin</a> where I post useful content related to Web Development and Programming</p>
                 <p class="source-sans fs-18 text-secondary">I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <strong>contact</strong> me.</p>
                <a href="#contact" class="text-reset text-decoration-none"> <button class="source-sans fw-bold text-white contactBtn shadow mt-4">CONTACT</button></a>
               </div>
-              <div class="col-md-6 mt-4 mt-lg-0">
+              <div class="col-md-6 mt-4 mt-lg-0" data-aos="zoom-out">
                 <h3 class="source-sans fw-bold">My Skills</h3>
                 <ul class="mt-5 list-unstyled d-flex gap-3 flex-wrap skillList source-sans text-secondary">
                   <li>HTML</li>
@@ -82,6 +92,12 @@
                   <li>Git</li>
                   <li>Github</li>
                   <li>Responsive Design</li>
+                  <li>ASP .Net Core</li>
+                  <li>SQL Server</li>
+                  <li>Transact SQL</li>
+                  <li>Entity Framework</li>
+                  <li>C#</li>
+                  <li>Linq</li>
                 </ul>
               </div>
             </div>
@@ -90,62 +106,73 @@
         <section class="bg-white" id="projects">
           <div class="container">
             <div class="position-relative text-center mb-4">
-              <h2 class="aboutTitle source-sans fw-bold display-5">PROJECTS</h2>
+              <h2 class="aboutTitle source-sans fw-bold display-5" data-aos="fade-up">PROJECTS</h2>
             </div>
-            <p class="source-sans fs-20 text-center text-secondary">Here you will find some of the projects that I created</p>
+            <p class="source-sans fs-20 text-center text-secondary" data-aos="fade-up">Here you will find some of the projects that I created</p>
           <div class="row mt-5 gy-3">
-            <div class="col-md-6">
-              <img src="assets/img/daniels.PNG" class="w-100" alt="daniels">
+            <div class="col-md-6" data-aos="fade-up">
+              <img src="assets/img/last.svg" class="w-100" alt="QuickBuck">
             </div>
-            <div class="col-md-6 source-sans mt-4">
-              <h3 class="fw-bold">Daniels</h3>
-              <p class="fs-18">A portfolio webpage which showcases my skills at HTML, CSS and Bootstrap for full details click on the button below.</p>
-              <a href="daniels.html" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn fw-bold text-white mt-3">Full Details</button></a>
+            <div class="col-md-6 source-sans mt-4" data-aos="zoom-in">
+              <h3 class="fw-bold">QuickBuck</h3>
+              <p class="fs-18">A Job Posting Web Application Focused on Providing Job Seekers And Job Providers The Ability To Prosper in Extremely Competitive Job Market, QuickBuck Mainly Focuses On Providing Fresh Graduates and UnderGraduates A Chance To Prove Themselves And Have A Chance In Competing in Job Market</p>
+              <a href="QuickBuck.html" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn fw-bold text-white mt-3">Full Details</button></a>
             </div>
-            <div class="col-md-6">
-              <img src="assets/img/yummy.PNG" class="w-100" alt="daniels">
-            </div>
-            <div class="col-md-6 source-sans mt-4">
-              <h3 class="fw-bold">Yummy!</h3>
-              <p class="fs-18">A food recipe website which allows you to pick any recipe from all around the world, the site fully utilize the power of API. For more info click on the button below.</p>
-              <a href="yummy.html" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn fw-bold text-white mt-3">Full Details</button></a>
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-up">
               <img src="assets/img/Ecommerce.PNG" class="w-100" alt="daniels">
             </div>
-            <div class="col-md-6 source-sans mt-4">
+            <div class="col-md-6 source-sans mt-4" data-aos="fade-out">
               <h3 class="fw-bold">Freshcart an E-commerce website</h3>
               <p class="fs-18">Freshcart is an e-commerce website built entirely from scratch using Angular framework. For more info click on the button below.</p>
               <a href="freshcart.html" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn fw-bold text-white mt-3">Full Details</button></a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-up">
+              <img src="assets/img/yummy.PNG" class="w-100" alt="daniels">
+            </div>
+            <div class="col-md-6 source-sans mt-4" data-aos="zoom-in-left">
+              <h3 class="fw-bold">Yummy!</h3>
+              <p class="fs-18">A food recipe website which allows you to pick any recipe from all around the world, the site fully utilize the power of API. For more info click on the button below.</p>
+              <a href="yummy.html" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn fw-bold text-white mt-3">Full Details</button></a>
+            </div>
+            <div class="col-md-6" data-aos="fade-up">
+              <img src="assets/img/daniels.PNG" class="w-100" alt="daniels">
+            </div>
+            <div class="col-md-6 source-sans mt-4" data-aos="zoom-in-right">
+              <h3 class="fw-bold">Daniels</h3>
+              <p class="fs-18">A portfolio webpage which showcases my skills at HTML, CSS and Bootstrap for full details click on the button below.</p>
+              <a href="daniels.html" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn fw-bold text-white mt-3">Full Details</button></a>
+            </div>
+            
+            
+            <div class="col-md-6" data-aos="fade-in">
               <img src="assets/img/bookmarker.PNG" class="w-100" alt="daniels">
             </div>
-            <div class="col-md-6 source-sans mt-4">
+            <div class="col-md-6 source-sans mt-4" data-aos="zoom-out">
               <h3 class="fw-bold">BookMarker</h3>
               <p class="fs-18">BookMarker is a site built with HTML5, CSS3, Bootstrap5 and JavaScript which operates on CRUD operations.</p>
               <a href="bookmarker.html" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn fw-bold text-white mt-3">Full Details</button></a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-up">
               <img src="assets/img/weatherapp.PNG" class="w-100" alt="daniels">
             </div>
-            <div class="col-md-6 source-sans mt-4">
+            <div class="col-md-6 source-sans mt-4" data-aos="zoom-in">
               <h3 class="fw-bold">WeatherApp</h3>
               <p class="fs-18">WeatherApp is weather forecasting website that uses user's location by asking for permission to share their location data and provide forecast for 3 consecutive days including current day</p>
               <a href="weatherapp.html" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn fw-bold text-white mt-3">Full Details</button></a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-up">
               <img src="assets/img/egyptianparty.PNG" class="w-100" alt="daniels">
             </div>
-            <div class="col-md-6 source-sans mt-4">
+            <div class="col-md-6 source-sans mt-4" data-aos="zoom-in">
               <h3 class="fw-bold">Egyptian Party</h3>
               <p class="fs-18">The site is mainly created to showcase my skills at jQuery and the ability to make fully customized navbar as well as accordion</p>
               <a href="egyptianparty.html" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn fw-bold text-white mt-3">Full Details</button></a>
             </div>
+            
           </div>
           </div>
         </section>
-        <section id="contact">
+        <section id="contact" data-aos="zoom-in">
           <div class="container source-sans">
             <div class="position-relative text-center mb-4">
               <h2 class="aboutTitle source-sans fw-bold display-5">CONTACT</h2>
@@ -168,6 +195,8 @@
       </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>AOS.init()</script>
     <script src="js/main.js"></script>
 </body>
 </html>

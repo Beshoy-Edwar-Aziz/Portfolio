@@ -8,4 +8,4 @@ socialGoToGithub.addEventListener('click',function(){
 })
 const scrollSpy = new bootstrap.ScrollSpy(document.body, {
     target: '#navbar'
-  })
+  });

@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FreshCart Project</title>
-    <link rel="icon" href="assets/img/MyPortImg.png">
+    <link rel="icon" href="assets/img/MyPortImg.jpeg">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="assets/img/MyPortImg.png" alt="Front-Web-Developer" class="rounded-circle myPort"> Beshoy Edwar</a>
+          <a class="navbar-brand" href="#"><img src="assets/img/MyPortImg.jpeg" alt="Front-Web-Developer" class="rounded-circle myPort"> Beshoy Edwar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,9 +38,9 @@
       </nav>
       <header class="position-relative d-flex flex-column justify-content-center align-items-center source-sans min-vh-100 hero-bg">
         <div class="w-50 text-center" data-depth="0.8">
-            <p class="fs-22"> Your Online Shopping Companion</p>
+            <p class="fs-22" data-aos="zoom-in"> Your Online Shopping Companion</p>
         </div>
-        <h1 class="display-2 pb-4" data-depth="0.6">FreshCart</h1>
+        <h1 class="display-2 pb-4" data-depth="0.6" data-aos="zoom-in">FreshCart</h1>
         <div class="position-absolute hero-contact shadow translate-middle-y">
           <ul class="list-unstyled fs-1 d-flex align-items-center justify-content-center flex-column">
             <li><i class="fab fa-linkedin linked"></i></li>
@@ -49,13 +50,13 @@
     </header>
     <section>
         <div class="container source-sans">
-            <img src="assets/img/Ecommerce.PNG" class="w-100" alt="web-developer">
-            <h2 class="fw-bold my-4">Project Overview</h2>
-            <p class="fs-18">
+            <img src="assets/img/Ecommerce.PNG" data-aos="fade-up" class="w-100" alt="web-developer">
+            <h2 class="fw-bold my-4" data-aos="fade-down">Project Overview</h2>
+            <p class="fs-18" data-aos="fade-down">
               "FreshCart" revolutionizes your online shopping experience with a sleek and intuitive frontend design. Dive into a world of seamless navigation and user interaction as you explore a website tailored for modern shoppers. As the dedicated front-end developer, I crafted a visually appealing and user-friendly interface to ensure an enjoyable shopping journey.
             </p>
-            <p>
-             <ul>   
+            <p >
+             <ul data-aos="fade-up">   
                 <span class="fw-bold">Key Features:</span>
                 
                 <li><span class="fw-bold">User Authentication:</span>  Navigate through a smooth authentication process using Angular, seamlessly managing user sessions with JWT token decoding for enhanced security.</li>
@@ -66,7 +67,7 @@
             </ul>
             </p>
             <p>
-                <ul>
+                <ul data-aos="fade-up">
                 <span class="fw-bold">Technologies Used:</span>
                 <li><span class="fw-bold">HTML5, CSS3, Bootstrap:</span>  Craft a visually appealing and responsive design for optimal display across various devices.</li>
                 <li><span class="fw-bold">Angular:</span>  Leverage Angular's powerful features for dynamic and reactive user interfaces, including lazy loading and interceptors.</li>
@@ -74,15 +75,15 @@
                 </ul>
             </p>
             <p>
-                <ul class="list-unstyled">
+                <ul class="list-unstyled" data-aos="fade-up">
                 <span class="fw-bold">Role:</span>
                 <li>As the front-end architect for "FreshCart," I utilized Angular's advanced features, including lazy loading and interceptors, to optimize performance, enhance security, and deliver a visually engaging layout. The focus was on designing and implementing frontend elements, including user authentication, profiles, and seamless payment simulations, all within the Angular framework.</li>
                 </ul>
             </p> 
             
             <p> 
-                <ul>
-                    <span class="fw-bold">Achievements:</span>
+                <ul data-aos="fade-up">
+                    <span class="fw-bold" >Achievements:</span>
                             
                     <li>Successful implementation of Angular's advanced features, including lazy loading, interceptors, and RxJS observables.</li>   
                     <li>Intuitive user interfaces for user authentication, profiles, shopping cart, and wishlist functionalities within the Angular framework.</li> 
@@ -93,7 +94,7 @@
               "FreshCart" emerges as a cutting-edge e-commerce platform, seamlessly integrating Angular's capabilities and advanced frontend technologies to provide a visually engaging, secure, and efficient interface for the modern online shopper.
             </p>
             <h3 class="fw-bold mt-4">Tools Used</h3>
-            <ul class="mt-3 list-unstyled d-flex gap-3 flex-wrap skillList source-sans text-secondary">
+            <ul data-aos="fade-up" class="mt-3 list-unstyled d-flex gap-3 flex-wrap skillList source-sans text-secondary">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>TypeScript</li>
@@ -105,7 +106,7 @@
                 <li>Angular</li>
               </ul>
               <h3 class="fw-bold mt-3">See Live</h3>
-              <div>
+              <div data-aos="fade-up">
                 <a href="https://beshoy-edwar-aziz.github.io/Ecommerce/#/home" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn text-white">Project Link</button></a>
                <a href="index.html" class="text-decoration-none"><button class="goBackBtn">Go Back</button></a> 
               </div>
@@ -117,5 +118,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>AOS.init()</script>
 </body>
 </html>

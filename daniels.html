@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniels Project</title>
-    <link rel="icon" href="assets/img/MyPortImg.png">
+    <link rel="icon" href="assets/img/MyPortImg.jpeg">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="assets/img/MyPortImg.png" alt="Front-Web-Developer" class="rounded-circle myPort"> Beshoy Edwar</a>
+          <a class="navbar-brand" href="#"><img src="assets/img/MyPortImg.jpeg" alt="Front-Web-Developer" class="rounded-circle myPort"> Beshoy Edwar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,9 +38,9 @@
       </nav>
       <header class="position-relative d-flex flex-column justify-content-center align-items-center source-sans min-vh-100 hero-bg">
         <div class="w-50 text-center" data-depth="0.8">
-            <p class="fs-22">A portfolio webpage</p>
+            <p class="fs-22" data-aos="fade-in" data-aos-duration="1000">A portfolio webpage</p>
         </div>
-        <h1 class="display-2 pb-4" data-depth="0.6">Daniels</h1>
+        <h1 class="display-2 pb-4" data-aos="fade-in" data-aos-duration="1000" data-depth="0.6">Daniels</h1>
         <div class="position-absolute hero-contact shadow translate-middle-y">
           <ul class="list-unstyled fs-1 d-flex align-items-center justify-content-center flex-column">
             <li><i class="fab fa-linkedin linked"></i></li>
@@ -49,13 +50,13 @@
     </header>
     <section>
         <div class="container source-sans">
-            <img src="assets/img/daniels.PNG" class="w-100" alt="web-developer">
-            <h2 class="fw-bold my-4">Project Overview</h2>
-            <p class="fs-18">
+            <img src="assets/img/daniels.PNG" data-aos="fade-up" data-aos-duration="1000" class="w-100" alt="web-developer">
+            <h2 class="fw-bold my-4" data-aos="fade-up" data-aos-duration="1000">Project Overview</h2>
+            <p class="fs-18" data-aos="fade-up" data-aos-duration="1000">
                 "Daniels" is a visually stunning and user-friendly webpage that I developed, showcasing a seamless blend of creativity and functionality. Leveraging the power of HTML5, CSS3, and Bootstrap 5, the website offers an immersive experience with distinct sections, including Home, About, Portfolio, Services, and Contact.
             </p>
             <p>
-             <ul>   
+             <ul data-aos="fade-up" data-aos-duration="1000">   
                 <span class="fw-bold">Key Features:</span>
                 
                 <li><span class="fw-bold">Home:</span> Welcome visitors with an engaging landing page that sets the tone for the entire site.</li>
@@ -66,7 +67,7 @@
             </ul>
             </p>
             <p>
-                <ul>
+                <ul data-aos="fade-up" data-aos-duration="1000">
                 <span class="fw-bold">Technologies Used:</span>
                 
                <li>HTML5: Structured and semantic markup for content presentation.</li>
@@ -75,14 +76,14 @@
                 </ul>
             </p>
             <p>
-                <ul class="list-unstyled">
+                <ul class="list-unstyled" data-aos="fade-up" data-aos-duration="1000">
                 <span class="fw-bold">Role:</span>
                 <li>As the sole developer, I conceptualized and implemented the entire project, focusing on creating a website that not only reflects the essence of Daniels but also provides a smooth and intuitive navigation experience.</li>
                 </ul>
             </p> 
             
             <p> 
-                <ul>
+                <ul data-aos="fade-up" data-aos-duration="1000">
                     <span class="fw-bold">Achievements:</span>
                             
                     <li>Successful integration of Bootstrap 5 for a modern and responsive design.</li>   
@@ -94,7 +95,7 @@
                 "Daniels" is not just a webpage; it's a digital representation of identity and expertise, designed to leave a lasting impression on its audience.
             </p>
             <h3 class="fw-bold mt-4">Tools Used</h3>
-            <ul class="mt-3 list-unstyled d-flex gap-3 flex-wrap skillList source-sans text-secondary">
+            <ul data-aos="fade-up" data-aos-duration="1000" class="mt-3 list-unstyled d-flex gap-3 flex-wrap skillList source-sans text-secondary">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -104,7 +105,7 @@
                 <li>Responsive Design</li>
               </ul>
               <h3 class="fw-bold mt-3">See Live</h3>
-              <div>
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <a href="https://beshoy-edwar-aziz.github.io/Daniels/" target="_blank" class="text-reset text-decoration-none"><button class="contactBtn text-white">Project Link</button></a>
                <a href="index.html" class="text-decoration-none"><button class="goBackBtn">Go Back</button></a> 
               </div>
@@ -116,5 +117,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>AOS.init()</script>
 </body>
 </html>
